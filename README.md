@@ -1,5 +1,7 @@
 # moneyConvertor
 
+Ce code Java permet de créer une fenêtre d'application graphique contenant des champs de texte et des boutons pour convertir des euros en dollars et vice versa. Lorsque l'utilisateur entre une valeur dans l'un des champs de texte et clique sur l'un des boutons de conversion, le montant converti est affiché dans l'autre champ de texte. Le code utilise la classe JFrame pour créer la fenêtre, les classes JLabel, JTextField et JButton pour créer les étiquettes, les champs de texte et les boutons, respectivement, et la classe Dimension pour définir la taille de certains de ces éléments.
+
 La classe `moneyConvertor` est une implémentation Java simple d'un convertisseur de devise. Elle permet de convertir des euros européens (EURO) en dollars américains (USD) et vice versa.
 
 ## Utilisation
