@@ -108,4 +108,30 @@ public class moneyConvertor {
     {
         converter();
     }
+
+    public double convertEuroToUsd(double euros) {
+        // Vérifie si le montant en euros est valide
+        if (euros <= 0) {
+            throw new IllegalArgumentException("Le montant en euros doit être un nombre positif.");
+        }
+
+        // Calcul du montant en dollars en utilisant le taux de conversion
+        double dollars = euros * EURO_TO_USD;
+
+        // Retourne le montant en dollars
+        return dollars;
+    }
+
+    public double convertUsdToEuro(double dollars) {
+        // Vérifie si le montant en dollars est valide
+        if (dollars <= 0) {
+            throw new IllegalArgumentException("Le montant en dollars doit être un nombre positif.");
+        }
+
+        // Calcul du montant en euros en utilisant le taux de conversion
+        double euros = dollars * USD_TO_EURO;
+
+        // Retourne le montant en euros
+        return euros;
+    }
 }
