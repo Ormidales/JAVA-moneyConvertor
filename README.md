@@ -1,3 +1,5 @@
+---
+
 # moneyConvertor
 
 Ce code Java permet de créer une fenêtre d'application graphique contenant des champs de texte et des boutons pour convertir des euros en dollars et vice versa. Lorsque l'utilisateur entre une valeur dans l'un des champs de texte et clique sur l'un des boutons de conversion, le montant converti est affiché dans l'autre champ de texte. Le code utilise la classe JFrame pour créer la fenêtre, les classes JLabel, JTextField et JButton pour créer les étiquettes, les champs de texte et les boutons, respectivement, et la classe Dimension pour définir la taille de certains de ces éléments.
@@ -31,6 +33,9 @@ Vous pouvez ensuite utiliser l'application en entrant les valeurs à convertir d
 La classe moneyConvertor ne prend pas en charge la conversion d'autres devises que l'EURO et le USD. De plus, les taux de conversion sont hard-codés dans le code et ne peuvent pas être modifiés sans recompiler le programme.
 
 
+---
+
+
 # moneyConvertorTest
 
 Ce projet contient une classe de test pour la classe `moneyConvertor`, qui permet de convertir des montants en euros en dollars et vice versa.
@@ -62,3 +67,5 @@ Si vous souhaitez contribuer à ce projet, veuillez suivre les étapes ci-dessou
 4. Effectuez vos modifications et committez vos changements.
 5. Poussez vos changements sur votre dépôt GitHub.
 6. Créez une pull request pour soumettre vos modifications à ce dépôt.
+
+---
