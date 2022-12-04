@@ -10,19 +10,19 @@ La classe `moneyConvertor` est une implémentation Java simple d'un convertisseu
 
 Pour utiliser cette classe, vous devez d'abord l'inclure dans votre code Java en utilisant l'instruction `import` suivante :
 
-```
+```java
 import moneyConvertor;
 ```
 
 Ensuite, vous pouvez créer une instance de la classe `moneyConvertor` en appelant son constructeur :
 
-```
+```java
 moneyConvertor converter = new moneyConvertor();
 ```
 
 Pour afficher la fenêtre de l'application, appelez la méthode `converter()` sur l'instance créée :
 
-```
+```java
 converter.converter();
 ```
 
